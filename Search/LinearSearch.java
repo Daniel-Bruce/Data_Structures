@@ -1,4 +1,4 @@
-package Data_Structures;
+package Search;
 
 public class LinearSearch {
     public static void main(String[] args) {
