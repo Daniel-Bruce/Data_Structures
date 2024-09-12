@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Arrays;
 
-public class EvenIntegers {
+public class EvenInteger {
     static int[] arrays = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 14, 13, 22, 34, 37, 56, 47};
 
     public static void main(String[] args) {
