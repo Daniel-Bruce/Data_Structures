@@ -9,12 +9,12 @@ public class SecondMaximumArrayValue {
         int secondMax = Integer.MIN_VALUE;
 
         for (int i = 0; i < arr.length; i++) {
-            int num = arr[i];
-            if (num > max) {
+            //int num = arr[i];
+            if (arr[i] > max) {
                 secondMax = max;
-                max = num;
-            } else if (num != max && num > secondMax) {
-                secondMax = num;
+                max = arr[i];
+            } else if (arr[i] != max && arr[i] > secondMax) {
+                secondMax = arr[i];
             }
         }
         return secondMax;
