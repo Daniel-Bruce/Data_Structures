@@ -1,12 +1,14 @@
 package Arrays;
 
+import java.util.Arrays;
+
 public class EvenIntegers {
           static  int [] arrays = {1,2,3,4,5,6,7,8,9,10,14,13,22,34,37,56,47};
 
           public static int[] removeEven(int[]arrays){
             //initialize variable that will store the count of oddNUmbers in the array
             int oddCount = 0;
-            //loop array so as to get count of oddNumbers
+            //loop array to get count of oddNumbers
             for (int i = 0; i < arrays.length; i++) {
                if (arrays[i] % 2 != 0) {
                   oddCount++;
@@ -30,9 +32,8 @@ public class EvenIntegers {
                   //    System.out.print(i+ " ");
                   // }}
 
-                  for (int num : removeEven(arrays)) {
-                     System.out.println(num);
-                  }
+                  int [] result = removeEven(arrays);
+                  System.out.println(Arrays.toString(result));
 
                }
                   }
