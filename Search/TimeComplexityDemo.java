@@ -1,4 +1,4 @@
-package Data_Structures;
+package Search;
 
 public class TimeComplexityDemo {
 
