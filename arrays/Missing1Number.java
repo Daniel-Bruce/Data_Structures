@@ -1,4 +1,4 @@
-package Arrays;
+package arrays;
 
 public class Missing1Number {
     static int[] arr = new int[99];

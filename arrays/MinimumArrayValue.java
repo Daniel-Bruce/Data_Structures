@@ -1,4 +1,4 @@
-package Arrays;
+package arrays;
 
 public class MinimumArrayValue {
    static int[] arr = {67,8,6,5,6,3,2,7,4,1};
