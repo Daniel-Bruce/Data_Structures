@@ -2,7 +2,7 @@ package arrays;
 import java.util.*;
 
 public class CumulativeSum {
-    static int [] arr = {1,2,3,4,5};
+    static int [] arr = {1,2,3,4,5,6};
 
     
 
